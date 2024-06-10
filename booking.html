@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glamour Hair Salon</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Glamour Hair Salon</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="experts.html">Experts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact-footer">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+    <div class="container booking-container">
+        <h1>BOOK YOUR APPOINTMENT</h1>
+        <div class="booking-widget bg-light p-4 rounded">
+            <h2>June 2024</h2>
+            <table class="table calendar">
+                <thead>
+                    <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="clickable" data-date="2024-06-01">1</td>
+                    </tr>
+                    <tr>
+                        <td class="clickable" data-date="2024-06-02">2</td>
+                        <td class="clickable" data-date="2024-06-03">3</td>
+                        <td class="clickable" data-date="2024-06-04">4</td>
+                        <td class="clickable" data-date="2024-06-05">5</td>
+                        <td class="clickable" data-date="2024-06-06">6</td>
+                        <td class="clickable" data-date="2024-06-07">7</td>
+                        <td class="clickable" data-date="2024-06-08">8</td>
+                    </tr>
+                    <tr>
+                        <td class="clickable" data-date="2024-06-09">9</td>
+                        <td class="clickable" data-date="2024-06-10">10</td>
+                        <td class="clickable" data-date="2024-06-11">11</td>
+                        <td class="clickable" data-date="2024-06-12">12</td>
+                        <td class="clickable" data-date="2024-06-13">13</td>
+                        <td class="clickable" data-date="2024-06-14">14</td>
+                        <td class="clickable" data-date="2024-06-15">15</td>
+                    </tr>
+                    <tr>
+                        <td class="clickable" data-date="2024-06-16">16</td>
+                        <td class="clickable" data-date="2024-06-17">17</td>
+                        <td class="clickable" data-date="2024-06-18">18</td>
+                        <td class="clickable" data-date="2024-06-19">19</td>
+                        <td class="clickable" data-date="2024-06-20">20</td>
+                        <td class="clickable" data-date="2024-06-21">21</td>
+                        <td class="clickable" data-date="2024-06-22">22</td>
+                    </tr>
+                    <tr>
+                        <td class="clickable" data-date="2024-06-23">23</td>
+                        <td class="clickable" data-date="2024-06-24">24</td>
+                        <td class="clickable" data-date="2024-06-25">25</td>
+                        <td class="clickable" data-date="2024-06-26">26</td>
+                        <td class="clickable" data-date="2024-06-27">27</td>
+                        <td class="clickable" data-date="2024-06-28">28</td>
+                        <td class="clickable" data-date="2024-06-29">29</td>
+                    </tr>
+                    <tr>
+                        <td class="clickable" data-date="2024-06-30">30</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="booking-details row">
+                <div class="col-md-4">
+                    <label for="service">Select Service</label>
+                    <select id="service" class="form-control">
+                        <option value="haircut">Haircut</option>
+                        <option value="highlights">Highlights</option>
+                        <option value="hairstyling">Hair styling</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="expert">Select Expert</label>
+                    <select id="expert" class="form-control">
+                        <option value="lisa">Lisa</option>
+                        <option value="mark">Mark</option>
+                        <option value="jessica">Jessica</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="time">Select Time</label>
+                    <select id="time" class="form-control">
+                        <option>9:00 AM</option>
+                        <option>9:30 AM</option>
+                        <option>10:00 AM</option>
+                        <option>10:30 AM</option>
+                        <option>11:00 AM</option>
+                        <option>11:30 AM</option>
+                        <option>12:00 PM</option>
+                        <option>12:30 PM</option>
+                        <option>1:00 PM</option>
+                        <option>1:30 PM</option>
+                        <option>2:00 PM</option>
+                        <option>2:30 PM</option>
+                        <option>3:00 PM</option>
+                        <option>3:30 PM</option>
+                        <option>4:00 PM</option>
+                        <option>4:30 PM</option>
+                    </select>
+                </div>
+            </div>
+            <button class="btn btn-dark btn-block mt-3">Book</button>
+        </div>
+    </div>
+</main>
+<footer id="contact-footer" class="bg-dark text-white py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h3>Social Media</h3>
+                <div class="icons">
+                    <a href="#"><img src="assets/Group.png" alt="Facebook"></a>
+                    <a href="#"><img src="assets/Vector.png" alt="X"></a>
+                    <a href="#"><img src="assets/Group-1.png" alt="Instagram"></a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h3>Address</h3>
+                <p>456 Beauty Avenue,<br>Glamour Town</p>
+            </div>
+            <div class="col-md-3">
+                <h3>Phone</h3>
+                <p>(321) 654-0987</p>
+            </div>
+            <div class="col-md-3">
+                <h3>Contact Us</h3>
+                <form>
+                    <input type="email" class="form-control" placeholder="Enter your email">
+                    <button type="submit" class="btn btn-light mt-2">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
